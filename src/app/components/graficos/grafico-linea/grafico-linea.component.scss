@@ -1,0 +1,15 @@
+.grafico-linea {
+  width: 100%;
+  height: 340px;
+}
+
+.canvasLinea {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .grafico-linea {
+    height: 280px;
+  }
+}

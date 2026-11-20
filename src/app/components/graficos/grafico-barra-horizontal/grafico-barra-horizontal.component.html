@@ -1,0 +1,12 @@
+<!-- SE REPRESENTA EL CANVAS SOLO CUANDO EXISTEN DATOS FILTRADOS. -->
+@if (restaurantes().length === 0) {
+    <ion-item lines="none" class="ion-text-center">
+        <ion-label>
+            <h2>No hay restaurantes disponibles</h2>
+        </ion-label>
+    </ion-item>
+}@else {
+    <div class="grafico-barra-horizontal" role="img" aria-label="Gráfico de barras horizontales por tipo de establecimiento">
+        <canvas #canvasHorizontal class="canvasHorizontal" role="img" aria-label="Restaurantes por tipo de establecimiento"></canvas>
+    </div>
+}

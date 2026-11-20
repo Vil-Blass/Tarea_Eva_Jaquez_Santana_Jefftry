@@ -1,0 +1,15 @@
+.grafico-donut {
+  width: 100%;
+  height: 340px;
+}
+
+.canvasDonut {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .grafico-donut {
+    height: 300px;
+  }
+}

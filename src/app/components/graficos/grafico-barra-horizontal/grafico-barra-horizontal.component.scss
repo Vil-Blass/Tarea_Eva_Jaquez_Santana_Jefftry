@@ -1,0 +1,16 @@
+
+.grafico-barra-horizontal {
+  width: 100%;
+  height: 340px;
+}
+
+.canvasHorizontal {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .grafico-barra-horizontal {
+    height: 300px;
+  }
+}

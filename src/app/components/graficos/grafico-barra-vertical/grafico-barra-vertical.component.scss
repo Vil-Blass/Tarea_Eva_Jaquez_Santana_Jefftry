@@ -1,0 +1,15 @@
+.grafico-barra-vertical {
+  width: 100%;
+  height: 340px;
+}
+
+.canvasVertical {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (max-width: 767px) {
+  .grafico-barra-vertical {
+    height: 280px;
+  }
+}
